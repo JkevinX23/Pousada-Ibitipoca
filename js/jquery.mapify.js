@@ -208,7 +208,7 @@
         if (!googleLoaded || !googleLoading) {
             googleLoading = true;
 
-            $.getScript('https://maps.google.com/maps/api/js?language=en', function() {
+            $.getScript('https://maps.google.com/maps/api/js?language=pt-Br&key=AIzaSyC6Vn9fGmIgY5pjNJHWj2xeuI4UeMQUVL0', function() {
                 mapify(collection, settings);
             });
         } else {
