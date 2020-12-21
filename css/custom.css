@@ -1,2 +1,12 @@
+#cronograma tr:nth-child(even){background-color: #f2f2f2;}
+#cronograma tr:hover {background-color: #ddd;}
+#cronograma th {
+    padding: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
 
-/** ADD YOUR AWESOME CODES HERE **/
+  #cronograma td {
+    padding-left: 10px;
+  }
