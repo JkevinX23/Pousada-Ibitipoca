@@ -754,8 +754,11 @@ button:focus{
     background-size: cover;
     background-position: 0 0;
     position: relative;
+    
 }
-
+.page-breadcrumb h1{
+        font-size: 20px;
+}
 .back2 {
     background: url(../images/a-cidade-ibitipoca.webp) no-repeat;
 }
