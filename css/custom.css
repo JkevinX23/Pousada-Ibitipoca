@@ -15,3 +15,10 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+
+
+
+#greyscaleImage {
+  -webkit-filter: grayscale(20%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(20%);
+}

@@ -54,27 +54,27 @@ h6 {
 }
 
 h1 {
-    font-size: 24px
+    font-size: 26px
 }
 
 h2 {
-    font-size: 22px
+    font-size: 24px
 }
 
 h3 {
-    font-size: 18px
+    font-size: 20px
 }
 
 h4 {
-    font-size: 16px
+    font-size: 18px
 }
 
 h5 {
-    font-size: 14px
+    font-size: 16px
 }
 
 h6 {
-    font-size: 13px
+    font-size: 15px
 }
 
 h1 a,
@@ -292,7 +292,7 @@ button:focus{
 	color: #fff;
 }
 .cover-slides p{
-	font-size: 18px;
+	font-size: 20px;
 	color: #fff;
 }
 .slides-pagination a{
@@ -328,11 +328,11 @@ button:focus{
 	color: #023e04;
 }
 .inner-column h4{
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 500;
 }
 .inner-column p{
-	font-size: 18px;
+	font-size: 20px;
 }
 .inner-column .btn-outline-new-white{
 	color: #023e04;
@@ -347,12 +347,16 @@ button:focus{
 
 
 .qt-background{
-	background: url(../images/lazer-completo-ibitipoca.png) no-repeat;
+	background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url(../images/lazer-completo-ibitipoca.png) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
 	background-position: center center;
-	position: relative;
+    position: relative;
+    
 }
 .qt-background p {
     font-size: 35px;
@@ -515,7 +519,7 @@ button:focus{
 
 @media (min-width: 320px) and (max-width: 640px) {
 	.carousel-inner .carousel-item p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.carousel-control-prev{
 		left: -5px;
@@ -647,14 +651,14 @@ button:focus{
 	margin-bottom: 10px;
 }
 .footer-area p{
-	font-size: 15px;
+	font-size: 17px;
 	color: rgba(255, 255, 255, 0.8);
 	margin: 0;
 	padding-bottom: 10px;
 }
 
 .footer-area p.lead{
-	font-size: 19px;
+	font-size: 20px;
 	color: #ffffff;
 	margin-bottom: 15px;
 }
