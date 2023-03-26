@@ -5,6 +5,12 @@
 @import url("https://fonts.googleapis.com/css?family=Arbutus+Slab");
 @import url("https://fonts.googleapis.com/css?family=Athiti:400,500,600");
 
+@import url(animate.css);
+@import url(font-awesome.min.css);
+@import url(superslides.css);
+@import url(baguetteBox.min.css);
+
+
 @font-face {
   font-family: "photograph_signature";
   src: url("../fonts/photograph-signature.ttf");
@@ -13,11 +19,6 @@
 /*------------------------------------------------------------------
     IMPORT FILES
 -------------------------------------------------------------------*/
-
-@import url(animate.css);
-@import url(font-awesome.min.css);
-@import url(superslides.css);
-@import url(baguetteBox.min.css);
 
 /*------------------------------------------------------------------
     SKELETON
