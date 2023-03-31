@@ -9,14 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Site Metas -->
-    <title> Chalés Aldeia da Serra</title>
+    <title>Chalés Aldeia da Serra</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="João Kevin Gomes Rodrigues" />
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/ic-logo.webp" type="image/x-icon">
-    <link rel="apple-touch-icon" href="images/ic-logo.webp">
+    <link rel="shortcut icon" href="images/ic-logo.webp" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/ic-logo.webp" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -34,35 +34,50 @@
   </head>
 
   <body>
-  	<!-- Start header -->
+    <!-- Start header -->
     <header class="top-navbar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light responsible-padding">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light responsible-padding"
+      >
         <div class="container-fluid margin-left margin-right">
           <a class="navbar-brand" href="index.html">
             <div class="logo-name">
-              <img src="images/ic-logo.png" alt="" height="75px"/>
-              <div class="logo-div"> 
+              <img src="images/ic-logo.png" alt="" height="75px" />
+              <div class="logo-div">
                 <span class="span1"> CHALÉS </span>
                 <span class="font-logo"> Aldeia da Serra </span>
                 <span class="span2"> IBITIPOCA . MG </span>
               </div>
             </div>
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbars-rs-food"
+            aria-controls="navbars-rs-food"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbars-rs-food">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item active mr-2"><a class="nav-link" href="ibitipoca.html">Ibitipoca</a></li>
-              <li class="nav-item mr-2"><a class="nav-link" href="turismo.html">Turismo</a></li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active mr-2">
+                <a class="nav-link" href="ibitipoca.html">Ibitipoca</a>
+              </li>
+              <li class="nav-item mr-2">
+                <a class="nav-link" href="turismo.html">Turismo</a>
+              </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-	<!-- End header -->
-	
+    <!-- End header -->
 
     <!-- Start All Pages -->
     <div class="all-page-title page-breadcrumb">
@@ -163,38 +178,47 @@
     <!-- End About -->
     <div class="row">
       <div class="inner-column col-sm-12 text-center">
-        <a class="btn btn-lg btn-circle btn-outline-new-white" href="turismo.html"
+        <a
+          class="btn btn-lg btn-circle btn-outline-new-white"
+          href="turismo.html"
           >Veja os principais pontos turisticos</a
         >
         <br />
         <br />
+      </div>
+      <div class="inner-column col-sm-12 text-center">
+        <a
+          class="btn btn-lg btn-circle btn-outline-new-white"
+          href="index.html"
+          >Saiba mais sobre os Chalés Aldeia da Serra</a
+        >
+        <br />
         <br />
       </div>
     </div>
- 
+
     <!-- Start Contact info -->
     <div class="contact-imfo-box">
       <div class="container">
-        <div class="row">
+        <div class="d-flex justify-content-center">
           <div class="col-md-4">
-            <i class="fa fa-volume-control-phone"></i>
-            <div class="overflow-hidden">
-              <h4>Telefone</h4>
-              <p class="lead">(38) 98858-9832</p>
+              <a href="https://api.whatsapp.com/send/?phone=5531998206959&text=Olá! Gostaria de saber mais sobre os Chalés Aldeia da Serra.&type=phone_number&app_absent=0">
+                <i class="fa fa-whatsapp"></i>
+              </a>
+              <div class="overflow-hidden">
+                <h4>Telefone</h4>
+                <p class="lead">
+                  (31) 99820-6959
+                </p>
+              </div>
             </div>
-          </div>
           <div class="col-md-4">
             <i class="fa fa-envelope"></i>
             <div class="overflow-hidden">
               <h4>Email</h4>
-              <p class="lead">contato@ibitipoca.com.br</p>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <i class="fa fa-map-marker"></i>
-            <div class="overflow-hidden">
-              <h4>Localização</h4>
-              <p class="lead">Av. Três Marias 432, Centro, Juiz de Fora</p>
+              <p class="lead">
+                contato@ibitipoca.com.br
+              </p>
             </div>
           </div>
         </div>
@@ -246,8 +270,15 @@
             title: "Conceição de Ibitipoca",
             infoWindow: "Conceição de Ibitipoca",
           },
+          {
+            lat: -21.689455,
+            lng: -43.9493603,
+            marker: true,
+            title: "Chalés Aldeia da Serra",
+            infoWindow: "Chalés Aldeia da Serra",
+          },
         ],
-        zoom: 14,
+        zoom: 10,
       });
     </script>
   </body>

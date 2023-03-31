@@ -417,6 +417,10 @@ button:focus {
   border-color: #023e04;
 }
 
+.video-apresentacao{
+  padding-top: 10rem;
+}
+
 .overlay-background {
   background: #444;
   position: absolute;
